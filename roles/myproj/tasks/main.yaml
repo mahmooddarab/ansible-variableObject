@@ -1,0 +1,5 @@
+---
+- name: -----------printmyvar--------------
+  debug:
+    msg: "{{person.first_name}}"
+  tags: var
